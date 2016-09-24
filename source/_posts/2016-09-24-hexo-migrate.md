@@ -24,6 +24,8 @@ photos:
 export http_proxy=proxy_addr:port
 ```
 
+<!-- more -->
+
 ## 2. Hexo与Next主题安装
 
 ### 2.1 安装node

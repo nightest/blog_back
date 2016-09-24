@@ -26,6 +26,8 @@ sh autogen.sh
 ./configure --prefix=/gpfs01/home/path/to/tmux
 ```
 
+<!-- more -->
+
 ### 1.1 提示需要libevent
 
 编译过程终端，
