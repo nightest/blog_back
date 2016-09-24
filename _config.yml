@@ -4,7 +4,7 @@
 
 # Site
 title: RAINFORESTS
-subtitle: All my Notes
+subtitle: All Notes
 description: Rainforests are havens for millions of plants and animals. This site is the same for my ideas and notes.
 author: Yujun
 language: zh-Hans
@@ -43,7 +43,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
