@@ -6,13 +6,18 @@ tags: [bioinfo, linux, 10x, long ranger]
 notebook: bioinfo
 ---
 
+{% cq %}People's thinking is great, just focus on a particular career, will certainly to make yourself feel surprised.
+
+-- Mark Twain
+{% endcq %}
+
 ## 1. 什么是Long Ranger
 
 Long Ranger是10X Genomics公司开发的一套*Pipeline*，用于10X Genomicsæ°据的比对，SNP检测与phasing，indel与SV的检测等。该*Pipleline*主要包含以下5个部分，
 
  - `longranger mkfastq` 包含Illumina 公司的bcl2fastq功能，能够根据barcode demultiplex样品，生成 FASTQ 文件。亲自测试后发现就相当于bcl2fastq功能
  - `longranger wgs` 输入文件为全基因组的FASTQ文件，然后进行比对，去冗余，过滤，最后根据GemCode特有的barcodes信息 call and phase **_SNPs, indels, SVs_**
- - `longranger targeted` 输入文ä»¶为目标样品的FASTQ文件，然后进行alignment, de-duplication, and filtering; 最后根据barcodes信息  call and phase **_SNPs, indels, SVs_**
+ - `longranger targeted` 输入文件为目标样品的FASTQ文件，然后进行alignment, de-duplication, and filtering; 最后根据barcodes信息  call and phase **_SNPs, indels, SVs_**
  - `longranger basic` 输入文件为 longranger basic 产生的FASTQ文件，找出并区分不同的barcodes及reads
  - `longranger align` basic pipeline部分再加上序列比对
 
