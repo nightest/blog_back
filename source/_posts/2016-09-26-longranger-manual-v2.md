@@ -8,12 +8,12 @@ notebook: bioinfo
 
 {% cq %}Perseverance is permanent enjoy.
 
---Black
+---Black
 {% endcq %}
 
 ## 1. Long Ranger调用bcl2fastq
 
-如果需要转换bcl产生FASTQ文件，则需要使用[Illumina's bcl2fastq 2.17](http://support.illumina.com/downloads/bcl2fastq_conversion_software.html)。安装Long Ranger与bcl2fastq，并加入到`$PATH`变量中即可调用 `longranger mkfastq`转化bcl文ä»¶。
+如果需要转换bcl产生FASTQ文件，则需要使用[Illumina's bcl2fastq 2.17](http://support.illumina.com/downloads/bcl2fastq_conversion_software.html)。安装Long Ranger与bcl2fastq，并加入到`$PATH`变量中即可调用 `longranger mkfastq`转化bcl文件。
 
 ### 1.1 bcl2fastq转换
 
