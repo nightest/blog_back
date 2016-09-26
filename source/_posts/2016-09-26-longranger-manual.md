@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 利用Long Ranger分析10X测序数据(一)
-category: 技术
+category: bioinformatics
 tags: [bioinfo, linux, 10x, long ranger]
 notebook: bioinfo
 ---
