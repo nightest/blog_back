@@ -6,10 +6,13 @@ tags: [bioinfo, linux, 10x, long ranger]
 notebook: bioinfo
 ---
 
-{% cq %}People's thinking is great, just focus on a particular career, will certainly to make yourself feel surprised.
+{% cq %}
+有三件事人类都要经历：出生生活和死亡。他们出生时无知无觉，死到临头，痛不欲生，活着的时候却又怠慢了人生。
 
--- Mark Twain
+———— 拉布吕耶尔
 {% endcq %}
+
+<!-- more -->
 
 ## 1. 什么是Long Ranger
 
@@ -23,7 +26,6 @@ Long Ranger是10X Genomics公司开发的一套*Pipeline*，用于10X Genomicsæ
 
 Long Ranger 利用 FreeBayes （内部集成）或者GATK（用户提供）进行SNP检测。
 
-<!-- more -->
 
 ## 2. Long Ranger 运行要求
 

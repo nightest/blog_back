@@ -6,10 +6,13 @@ tags: [bioinfo, linux, 10x, long ranger]
 notebook: bioinfo
 ---
 
-{% cq %}Perseverance is permanent enjoy.
+{% cq %}
+生活是恼人的牢笼。一个有思想的人到成年时期，对生活有了成熟的感觉，他就不能不感到他关在一个无从脱逃的牢笼里面。
 
----Black
+———— 契诃夫
 {% endcq %}
+
+<!-- more -->
 
 ## 1. Long Ranger调用bcl2fastq
 
