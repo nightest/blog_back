@@ -11,6 +11,7 @@ photos:
 
 —— 刘易斯{% endcq %}
 
+<!-- more -->
 
 近期看到很多布置在**Git**上的*blog*都采用hexo + Next主题，简洁美观，因此动了心思利用hexo从新布置一下，于是今天下午就利用周六的时间进行了迁移。
 
@@ -23,8 +24,6 @@ photos:
 ```
 export http_proxy=proxy_addr:port
 ```
-
-<!-- more -->
 
 ## 2. Hexo与Next主题安装
 
