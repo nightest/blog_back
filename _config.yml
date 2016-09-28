@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: RAINFORESTS
+title: 雨林RAINFORESTS
 subtitle: All Notes
 description: Rainforests are havens for millions of plants and animals. This site is the same for my ideas and notes.
 author: Yujun
@@ -12,6 +12,7 @@ timezone:
 avatar: http://ocs218n9i.bkt.clouddn.com/a50f4bfbfbe.jpg
 disqus_shortname: eugene-1
 jiathis: true
+baidu_analytics: 2fc9298ea3e117c6fdad6c6c94c7544b
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
