@@ -54,5 +54,9 @@ $ export http_proxy=http://USERNAME:PASSWORD@proxy-server.mycorp.com:3128/
 export http_proxy=http://proxy-server.mycorp.com:3128/
 ```
 
+## 3. 源列表
+
+源列表：[http://wiki.ubuntu.org.cn/%E6%BA%90%E5%88%97%E8%A1%A8](http://wiki.ubuntu.org.cn/%E6%BA%90%E5%88%97%E8%A1%A8)
+
 [^1]: [http://askubuntu.com/questions/164169/unable-to-connect-error-with-apt-get](http://askubuntu.com/questions/164169/unable-to-connect-error-with-apt-get)
 [^2]: [http://www.cyberciti.biz/faq/linux-unix-set-proxy-environment-variable/](http://www.cyberciti.biz/faq/linux-unix-set-proxy-environment-variable/)
