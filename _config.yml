@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 雨林RAINFORESTS
+title: RAINFORESTS雨林
 subtitle: All Notes
 description: Rainforests are havens for millions of plants and animals. This site is the same for my ideas and notes.
 author: Yujun
@@ -68,6 +68,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+#plugins:
+ #- hexo-footnotes
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
