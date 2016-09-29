@@ -6,15 +6,10 @@ tags: [bioinfo, linux, blastn, trim]
 notebook: bioinfo
 ---
 
-@Date: 2016-09-05 10:27:40
-
---------
-
-* content
-{:toc}
-
----------
-
+{% cq %}
+合理的安排时间，就等于节约时间。
+———— 培根
+{% endcq %}
 
 ## 1. bam转换为fastq
 
@@ -99,9 +94,7 @@ Usage:
 
 其中：
 
-#### 3.2.1 PE
-
-双端数据
+#### 双端数据
 
 ```
 -threads：后面加数字表示使用线程数，可不设置，程序会自行检测并选择核心数（good）
@@ -132,6 +125,14 @@ tips:
 
  1. 此程序进行质控先后是按照给定参数的顺序进行的，推荐先进行adapter的去除,即第一使用的参数ILLUMINACLIP
  2. 支持直接对.gz/.bz2等压缩文件进行操作
+
+### 3.2 实例
+
+```
+java -jar /soft/Trimmomatic-0.36/trimmomatic-0.36.jar PE -threads 10 -phred33 %s %s %s/trimmomatic/r1.c1 %s/trimmomatic/r1.un %s/trimmomatic/r2.cl %s/trimmomatic/r2.un LEADING:3 TRAILING:3 SLIDINGWINDOW:36:10 MINLEN:75 HEADCROP:10
+```
+
+如上例所述，对PE数据进行质控，并调用HEADCROP分别切除R1与R2前面的10个bp，减少primer及前面N的影响
 
 ## 4. 附属说明
 
