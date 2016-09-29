@@ -16,6 +16,7 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-server": "^0.2.0",
     "hexo-deployer-git": "~0.2.0",
-    "hexo-footnotes": "~1.0.1"
+    "hexo-footnotes": "~1.0.1",
+    "hexo-algolia": "~0.2.0"
   }
 }

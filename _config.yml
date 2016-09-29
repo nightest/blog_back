@@ -71,6 +71,12 @@ theme: next
 
 #plugins:
  #- hexo-footnotes
+algolia:
+  applicationID: '4BWVSR1DNZ'
+  apiKey: '6436c277bfe5cfd42d01400276a5f085'
+  adminApiKey: '0049280b20e86194b155d33513e4ea8f'
+  indexName: 'blog_hexo'
+  chunkSize: 5000
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
