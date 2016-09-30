@@ -1,6 +1,6 @@
 ---
 layout: post
-title: heading
+title: 在不同系统中使用Hexo
 category: 技术
 tags: [hexo, linux, git]
 notebook: 待处理
