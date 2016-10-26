@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git pull coding master
+#git pull coding master
 hexo clean
 hexo g
 hexo deploy

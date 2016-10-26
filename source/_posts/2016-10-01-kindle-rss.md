@@ -61,7 +61,7 @@ appcfg.py update ./
 
 在默认设置下，第三方服务通过推送邮箱发送给你的数字内容，都会在亚马逊云上保留一份存档，而这些文摘杂志等基本都没有保留的价值，定期到网站上去删除文档给用户增添了不少麻烦。为了防止Amazon云堆积太多第三方文档，登录自己的 Amazon 账号，进行如下设置，关闭 Psrsonal Document Archiving 自动保存服务即可：
 
-![set](http://am.zdmimg.com/201608/26/57c00c5e3ce49.png_e600.jpg)
+![set](http://ocs218n9i.bkt.clouddn.com/57c00c5e3ce49.png_e600.jpg)
 
 ## 5. Kindle 图书资源列表
 
