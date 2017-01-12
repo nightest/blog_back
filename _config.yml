@@ -85,4 +85,4 @@ deploy:
   message: add hexo posts
   repo:
     coding: git@git.coding.net:nightest/nightest.git,coding-pages
-    #github: git@github.com:nightest/nightest.github.com.git,master
+    github: git@github.com:nightest/nightest.github.com.git,master
